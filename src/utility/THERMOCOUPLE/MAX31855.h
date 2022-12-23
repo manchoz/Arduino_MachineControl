@@ -40,7 +40,6 @@ public:
 
 private:
   uint32_t readSensor();
-  float    _coldOffset;
   int _cs;
   SPIClass* _spi;
   SPISettings _spiSettings;
